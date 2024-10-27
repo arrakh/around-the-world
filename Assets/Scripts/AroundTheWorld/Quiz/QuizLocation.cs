@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using Arr.ScriptableDatabases;
+using UnityEngine;
 
 namespace AroundTheWorld.Quiz
 {
+    public class QuizLocationDatabase : ObjectScriptableDatabase<QuizLocation> {}
+
     [CreateAssetMenu(menuName = "Quiz/Location")]
     public class QuizLocation : ScriptableObject
     {
