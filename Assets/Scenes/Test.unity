@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -43,7 +43,6 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +65,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -387,6 +383,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: JoaoScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 4371109264721758364, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107379073247626614, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 251
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107379073247626614, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 242
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107379073247626614, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -793
+      objectReference: {fileID: 0}
+    - target: {fileID: 5107379073247626614, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 386
+      objectReference: {fileID: 0}
     - target: {fileID: 6666623997176727972, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
       propertyPath: joaoImage
       value: 
@@ -499,6 +515,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1236539987}
+    - target: {fileID: 8246364541272397846, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1559999864, guid: 6adad0d5bc11e9345834cdadc56560f3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
