@@ -43,8 +43,8 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
-  spriteExtrude: 1
+  spriteMode: 2
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,7 +108,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Kimchi
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2222
+        width: 382
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96109c795631f2c49b4d90dc01dbebb5
+      internalID: -1342757851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croissant
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 2240
+        width: 458
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fa553e176218245af9f52c53e04412
+      internalID: 233385386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: german bratwurst ssausage
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2246
+        width: 464
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91e32114dce2242a9a0e75d7b93307
+      internalID: -1493566546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish n chips
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 2232
+        width: 478
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f36a606212022b45b8032c0fcd0c3b0
+      internalID: -1748984454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tacos
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2220
+        width: 414
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accc0c1a1b3929345b6bfd114ff84387
+      internalID: -590559218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pastel de nata
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1918
+        width: 488
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e3fe246bcac4c4ba200716c5f86366
+      internalID: -662445866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pizza
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1908
+        width: 420
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725517ea18d5c3842b144ca004ae3669
+      internalID: 1246511168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Baklava
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1906
+        width: 382
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e51e50596fcd6e43888ec4bd6fc0bd4
+      internalID: -1704139602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peking duck
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1906
+        width: 416
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e373b2d7804815e4cb75c1be8fa942e5
+      internalID: 1429592346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sushi
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1929
+        width: 390
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2351dc10d698d1a499aa567cef5db7d5
+      internalID: -2069827644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okonomiyaki
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1462
+        width: 426
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8570b4effac199f408d9634fb7adcfdb
+      internalID: 1925971732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paella spain
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1464
+        width: 432
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a171d240d267a4ea6bf8774a5ba4f1
+      internalID: 221644890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Russia Pancake
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1446
+        width: 456
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5255002c45b981b4db6be7f862ec04f5
+      internalID: 163958842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom yum
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1428
+        width: 396
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9aa401961e5eb418a36b896f493602
+      internalID: -1464774148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_Tteokboki
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1458
+        width: 496
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f918a8a8c00b4284f81c9ad8ed846628
+      internalID: -1927262286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukraine Borsch
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1012
+        width: 386
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6724fdac03c744890fd726892faea7
+      internalID: 1605306067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vietnam_Pho
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1012
+        width: 386
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f2e907162ac5d49a6bb0f7d610928d
+      internalID: 1492856874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: China Xiao Long Bao
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1026
+        width: 422
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c87cfae35f56b46a6a655fca3d45fa
+      internalID: -860108226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: France_Macarons
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1026
+        width: 330
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab764f25d32acb4ebd758af13711de9
+      internalID: 556478452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Malaysia_Nasi_Lemak
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 992
+        width: 374
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6282add91c82e544d9ad84fc4e04d4f8
+      internalID: -1244318846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finland_Lohikeitto
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 536
+        width: 408
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be48b7bdd494204fb86f8a254bdb7cc
+      internalID: 70699478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hakarl iceland
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 524
+        width: 426
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71da9f4465b232418ea0248051a05dd
+      internalID: -1468397949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Hungary_K\xFCrt\u0151skal\xE1cs"
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 548
+        width: 404
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6794daa6ec016aa4cb980deaeb60d5ac
+      internalID: -1015858462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iran_Fesenjan
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 540
+        width: 390
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8064038ef64474dadc46862e16f407
+      internalID: -1017937510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kokorej turkey
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 568
+        width: 456
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a8ed910035f464dabbb17fdc9a6222
+      internalID: 1489086183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nigeria- egusi soup
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 86
+        width: 428
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c01da0e92362447be8a12bb595647b
+      internalID: 950829473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: south africa - bunny chow
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 100
+        width: 480
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff5a52ec88edb7489bd95c8f90d15f4
+      internalID: 2052185150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Australia_Iced_VoVo
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 116
+        width: 518
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288cccb66e956614abe1a1c90545c88c
+      internalID: 575770414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canada_Poutine
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 88
+        width: 406
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca92df72189a2a43b95716140c8dc56
+      internalID: -991077154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: China_Zongzi
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 62
+        width: 428
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c92ea5224aa2ea40a5d7f7c9242fe75
+      internalID: 673318131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +749,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Australia_Iced_VoVo: 575770414
+      Baklava: -1704139602
+      Canada_Poutine: -991077154
+      China Xiao Long Bao: -860108226
+      China_Zongzi: 673318131
+      Finland_Lohikeitto: 70699478
+      Fish n chips: -1748984454
+      France_Macarons: 556478452
+      "Hungary_K\xFCrt\u0151skal\xE1cs": -1015858462
+      Iran_Fesenjan: -1017937510
+      Kimchi: -1342757851
+      Malaysia_Nasi_Lemak: -1244318846
+      Nigeria- egusi soup: 950829473
+      Okonomiyaki: 1925971732
+      Peking duck: 1429592346
+      Pizza: 1246511168
+      Russia Pancake: 163958842
+      Tom yum: -1464774148
+      Ukraine Borsch: 1605306067
+      Vietnam_Pho: 1492856874
+      croissant: 233385386
+      food_Tteokboki: -1927262286
+      german bratwurst ssausage: -1493566546
+      hakarl iceland: -1468397949
+      kokorej turkey: 1489086183
+      paella spain: 221644890
+      pastel de nata: -662445866
+      south africa - bunny chow: 2052185150
+      sushi: -2069827644
+      tacos: -590559218
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Big Ben
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1918
+        width: 546
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8422add5e1456484c98da2464ec7e1f3
+      internalID: -84224290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great Pyramid
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1906
+        width: 500
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a698d21bb6ab1544b5d138f0b775c98
+      internalID: -878017707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Statue of Liberty
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1912
+        width: 472
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8851432117baa9449220ad35a5caaaa
+      internalID: -838451012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pisa Tower
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1923
+        width: 425
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8601d3562905edb4e8e47e37b0fe3401
+      internalID: -814480921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Great Wall
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1539
+        width: 503
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e171f6aaf9b7d4bb93e85e03659f20
+      internalID: -1085376676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sydney Opera House
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1539
+        width: 496
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42407c71c851994584b3e88878cf33b
+      internalID: 1559301940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petronas Twin Towers Malaysia
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1190
+        width: 521
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e440a46884ba4af4fa4f7e980fcfffd9
+      internalID: -1453260283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thailand - Krung Thep Maha Nakhon
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1179
+        width: 473
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a169a3c5cd5713646a6d225c9319fbe3
+      internalID: 1967411561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pentagon Washington, D.C.
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 1169
+        width: 471
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a7f81a245281a42abe3ff6caffa1fb
+      internalID: 409122891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Philippines - Manila
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 432
+        width: 486
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9698e17c8068f264cb6d367352434924
+      internalID: 2127568100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey - Istanbul
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 427
+        width: 437
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000859467ed09314e827ad8062bc2581
+      internalID: -1248314729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Azerbaijan - Baku
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 62
+        width: 483
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f40df5916a8ddf488578b3416344529
+      internalID: 1050033305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brazil - brasilia
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 53
+        width: 497
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbdd44aa0ab25b40997be5ab3a4ee1a
+      internalID: 702394988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croatia - Zagreb
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 45
+        width: 474
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f38fbbb1881e184e86add6104b6e74c
+      internalID: -1452708327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lagos Nigeria
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 45
+        width: 515
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a425d0823deff4a9fbeca92aaadca6
+      internalID: -625944866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Taj Mahal
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1567
+        width: 477
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d488738c37cfc7944a3c4029e7897a68
+      internalID: 841490688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mount Fuji
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1551
+        width: 453
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713e8c97a52d5094d9205c8796717fb7
+      internalID: -103128119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merlion Statue
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1912
+        width: 437
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99e2da267da05241b9a84c5916ebc0f
+      internalID: 146715219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eiffel Tower
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1554
+        width: 479
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4e64ef4e43a57409a52431840c670e
+      internalID: -1381786598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tokyo Tower Tokyo, Japan
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1174
+        width: 458
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11729ea23c7d7374cab54afb10597bda
+      internalID: -2064998749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The forbidden city China
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1169
+        width: 474
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cadce2905a1c9439d8e642d3e69fd1
+      internalID: 225621417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lisbon
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 457
+        width: 495
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d3480657f6acd42af9256242d0badc
+      internalID: -1681143643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: US -Seattle
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 441
+        width: 479
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6ed283468c35444beb78c8da33301e
+      internalID: 869706555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UK- Manchester
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 441
+        width: 487
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91de68dd2496fd947971ced136995a61
+      internalID: 329383231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethiopia
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 51
+        width: 461
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51ec81cd353cdd4dbf630814fef876b
+      internalID: 230685743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bridge of Sighs Venice, Italy
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 842
+        width: 503
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b63866783fc5c4c9fab7371592d1ca
+      internalID: 103135926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burj Al Arab Hotel United Arab Emirates
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 834
+        width: 471
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5449956ce93dd1644bcb000c98a02761
+      internalID: 1921640690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Little Mermaid Denmark
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 831
+        width: 456
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1df0b9b2430aac4086240136824e16c
+      internalID: 1853897589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Machu Picchu Peru
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 821
+        width: 479
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9af625b2a113bf4b862cd460a667646
+      internalID: 612332409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Manneken Pis, Brussels
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 826
+        width: 463
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8db35e64bcabc418030f827a0a2912
+      internalID: 2115355771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +749,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Azerbaijan - Baku: 1050033305
+      Big Ben: -84224290
+      Brazil - brasilia: 702394988
+      Bridge of Sighs Venice, Italy: 103135926
+      Burj Al Arab Hotel United Arab Emirates: 1921640690
+      Croatia - Zagreb: -1452708327
+      Eiffel Tower: -1381786598
+      Ethiopia: 230685743
+      Great Pyramid: -878017707
+      Lagos Nigeria: -625944866
+      Lisbon: -1681143643
+      Little Mermaid Denmark: 1853897589
+      Machu Picchu Peru: 612332409
+      Manneken Pis, Brussels: 2115355771
+      Merlion Statue: 146715219
+      Mount Fuji: -103128119
+      Pentagon Washington, D.C.: 409122891
+      Petronas Twin Towers Malaysia: -1453260283
+      Philippines - Manila: 2127568100
+      Pisa Tower: -814480921
+      Statue of Liberty: -838451012
+      Sydney Opera House: 1559301940
+      Taj Mahal: 841490688
+      Thailand - Krung Thep Maha Nakhon: 1967411561
+      The Great Wall: -1085376676
+      The forbidden city China: 225621417
+      Tokyo Tower Tokyo, Japan: -2064998749
+      Turkey - Istanbul: -1248314729
+      UK- Manchester: 329383231
+      US -Seattle: 869706555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

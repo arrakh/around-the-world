@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Emma-Watson
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2170
+        width: 352
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48712803edab02e4ba4e6d44246911cf
+      internalID: -1742759177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hayao Miyazaki
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2170
+        width: 379
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8b370d29f210a4abd876e29cd49143
+      internalID: 1329490682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungkook
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2170
+        width: 396
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5daf4bf8062f04daf60a16593640de
+      internalID: -1828654257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kim Jong Un
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 2181
+        width: 433
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd34a4bd0a761f469aa05df677a5b72
+      internalID: 1743613668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lionel Messi
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 2170
+        width: 381
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8694a9b8ae3957c40b3823b5a381c909
+      internalID: -80162504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mohammed bin Salman
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1795
+        width: 368
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c2d48230f72e4d82b1033a2d495ec
+      internalID: -911048553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people_Nelson_Mandela
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1780
+        width: 435
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1bbca2d281363499cd6820d76ce810
+      internalID: 841419273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Putin
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1790
+        width: 406
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e783dbd6628d0949bb54a28f9dbe7de
+      internalID: -261898465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ronaldo
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1766
+        width: 338
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5344a15c9222ac49a21472956658785
+      internalID: 1194012022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Huang Zitao
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1371
+        width: 382
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a1df7b59d6ee94abca7555c688a746
+      internalID: -1513018918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lalisa Manoban
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1377
+        width: 284
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec55a0add628bce42b98c0f50c4bc5f3
+      internalID: -991014967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lea Salonga
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1377
+        width: 370
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fb1033adbe28d418103699e4eed24f
+      internalID: -399461539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Max Verstappen
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 944
+        width: 380
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949489f36790f8741a3bbab3f23ba63e
+      internalID: 2062590625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rami Malek
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 946
+        width: 404
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459f2588f5ad1524cbf0e1475c5bac3f
+      internalID: 689928002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saoirse Ronan
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 944
+        width: 366
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70684bffe7f672e4abe76ff14701b3d6
+      internalID: -1341218453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Usain Bolt
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 940
+        width: 355
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f4c8cfde9e5243baa1c9264d470d8
+      internalID: 1359567486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zedd
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 484
+        width: 415
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2050bdb59f13f1149b2149b791457afe
+      internalID: -1237296705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wole_Soyinka
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 484
+        width: 343
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a262c4fd80b60ab4fb4256ea888002ea
+      internalID: -1738614543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H_Hen_Nie
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 484
+        width: 341
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c813c931aa98fcd4a821ea48d98102c6
+      internalID: -605875527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guillermo_del_Toro
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 514
+        width: 448
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c478e4adc4a0f8b4695823021767625a
+      internalID: -1543806593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kwame Nkrumah
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 514
+        width: 362
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e45d90e1ebf58342b5c7fbfd6ca1bf3
+      internalID: -402288106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rich_Brian
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 87
+        width: 390
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dd395688bae9b43bc5df2ff9a808aa
+      internalID: 645968499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shahid_Afridi
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 80
+        width: 397
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c51b998537bb40b7cedd382864dbf
+      internalID: 654637083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ratan_Naval_Tata
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 104
+        width: 410
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6086564f62799043989d304b153f007
+      internalID: 642607759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiara_Ferragni
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 101
+        width: 378
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426ecdc2619c9c84ea263c4930dc4cee
+      internalID: -767428377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hirohito
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 115
+        width: 378
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b3bb6e5b4f14d4ca89534dc270a60c
+      internalID: -2041900145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rafael Nadal
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 943
+        width: 450
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8145e46dc00b3364493b7342191b99b5
+      internalID: -658519583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trump
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1751
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d940b15868b01409a06b49a8cc417d
+      internalID: 668792028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angela Merkel
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1361
+        width: 387
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf04e8fd2bb75e48972e53d2373eb55
+      internalID: 146816340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fela Kuti
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1358
+        width: 469
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe4eab926a88d44299b612428d59a7a
+      internalID: -81469203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +749,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Angela Merkel: 146816340
+      Chiara_Ferragni: -767428377
+      Emma-Watson: -1742759177
+      Fela Kuti: -81469203
+      Guillermo_del_Toro: -1543806593
+      H_Hen_Nie: -605875527
+      Hayao Miyazaki: 1329490682
+      Hirohito: -2041900145
+      Huang Zitao: -1513018918
+      Jungkook: -1828654257
+      Kim Jong Un: 1743613668
+      Kwame Nkrumah: -402288106
+      Lalisa Manoban: -991014967
+      Lea Salonga: -399461539
+      Lionel Messi: -80162504
+      Max Verstappen: 2062590625
+      Mohammed bin Salman: -911048553
+      Putin: -261898465
+      Rafael Nadal: -658519583
+      Rami Malek: 689928002
+      Ratan_Naval_Tata: 642607759
+      Rich_Brian: 645968499
+      Ronaldo: 1194012022
+      Saoirse Ronan: -1341218453
+      Shahid_Afridi: 654637083
+      Trump: 668792028
+      Usain Bolt: 1359567486
+      Wole_Soyinka: -1738614543
+      Zedd: -1237296705
+      people_Nelson_Mandela: 841419273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
