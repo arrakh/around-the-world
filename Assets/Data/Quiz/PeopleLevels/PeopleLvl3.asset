@@ -10,37 +10,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
-  m_Name: PeopleLvl1
+  m_Name: PeopleLvl3
   m_EditorClassIdentifier: 
   timerPerQuestion: 5
   entries:
-  - answerLocation: South Africa
-    questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: North Korea
-    questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: USA
-    questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: Russia
-    questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
   - answerLocation: Japan
     questionText: Where is this person from?
     questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: South Korea
+  - answerLocation: Vietnam
     questionText: Where is this person from?
     questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: Saudi Arabia
+  - answerLocation: Pakistan
     questionText: Where is this person from?
     questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: United Kingdom
+  - answerLocation: India
     questionText: Where is this person from?
     questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: Portugal
+  - answerLocation: Italy
     questionText: Where is this person from?
     questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
-  - answerLocation: Argentina
+  - answerLocation: Germany
+    questionText: Where is this person from?
+    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+  - answerLocation: Mexico
+    questionText: Where is this person from?
+    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+  - answerLocation: Indonesia
+    questionText: Where is this person from?
+    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+  - answerLocation: Nigeria
+    questionText: Where is this person from?
+    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+  - answerLocation: Ghana
     questionText: Where is this person from?
     questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
