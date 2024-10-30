@@ -20,7 +20,6 @@ namespace AroundTheWorld.Quiz
         
         private int score;
         private int levelIndex;
-        private int entryIndex;
 
         private bool hasLost = false;
 
@@ -35,25 +34,22 @@ namespace AroundTheWorld.Quiz
             if (topic == null) throw new Exception("TOPIC IS NOT SET IN QUIZ CONFIGURATION");
 
             levelIndex = 0;
-            entryIndex = 0;
 
             //Game Loop
             while (!hasLost && levelIndex < topic.Levels.Length)
             {
                 var level = InitializeLevel();
 
-                while (!hasLost && entryIndex < level.Entries.Length)
+                while (!hasLost && quizQueue.Count > 0)
                 {
                     var timer = level.TimerPerQuestion;
-                    var entry = level.Entries[entryIndex];
+                    var entry = quizQueue.Dequeue();
                     
                     InitializeEntry(timer, entry);
 
                     yield return new WaitForSeconds(timer);
 
                     EvaluateAnswer(entry);
-
-                    entryIndex++;
                 }
 
                 levelIndex++;
