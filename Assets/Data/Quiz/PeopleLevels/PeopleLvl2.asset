@@ -12,35 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: PeopleLvl2
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5
+  timerPerQuestion: 5.11
   entries:
   - answerLocation: Nigeria
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: -81469203, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Spain
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: -658519583, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Germany
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: 146816340, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: China
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: -1513018918, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Netherlands
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: 2062590625, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Philippines
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: -399461539, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Ireland
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: -1341218453, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Egypt
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: 689928002, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Thailand
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: -991014967, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Jamaica
     questionText: Where is this person from?
-    questionImage: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+    questionImage: {fileID: 1359567486, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
