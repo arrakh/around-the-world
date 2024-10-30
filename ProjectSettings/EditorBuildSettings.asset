@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d8648a7f7c9a71f41a9c65efad0434f2
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: cea1482217a6eae4cb0b92c2fdb2f8d6
   m_configObjects: {}

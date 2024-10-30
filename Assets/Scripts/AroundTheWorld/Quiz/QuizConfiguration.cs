@@ -8,9 +8,9 @@ namespace AroundTheWorld.Quiz
         
         public static QuizTopic CurrentTopic => _currentTopic;
 
-        public static void Set(QuizTopic level)
+        public static void Set(QuizTopic topic)
         {
-            _currentTopic = level;
+            _currentTopic = topic;
         }
     }
 }
