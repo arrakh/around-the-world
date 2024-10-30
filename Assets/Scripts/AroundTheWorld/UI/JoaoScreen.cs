@@ -32,7 +32,7 @@ namespace AroundTheWorld.UI.Quiz
             Debug.Log($"Joao's state changed to: {newState}");
         }
 
-        //call to change state (trigger) 
+        //functions to call to change state (trigger) 
         public void SetJoaoToHappy() => UpdateJoaoState(JoaoState.HAPPY);
         public void SetJoaoToSad() => UpdateJoaoState(JoaoState.SAD);
         public void SetJoaoToDefault() => UpdateJoaoState(JoaoState.DEFAULT);

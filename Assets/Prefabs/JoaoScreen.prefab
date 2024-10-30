@@ -408,7 +408,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &7270353402017198551
 MonoBehaviour:
@@ -549,8 +549,8 @@ MonoBehaviour:
   m_Texture: {fileID: 2800000, guid: af8afa2aaa77c9042918173992453637, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 159.17412
-    y: 159.92656
+    x: 159.56842
+    y: 160.32086
     width: 4.1025643
     height: 2.7
 --- !u!1 &7177567852988392652
