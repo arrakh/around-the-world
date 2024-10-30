@@ -11,6 +11,8 @@ namespace AroundTheWorld.Globe
 
         private IGlobeInput[] inputs;
 
+        public event Action<string> onLocationUpdated; 
+
         private void Awake()
         {
             inputs = GetComponents<IGlobeInput>();
@@ -29,6 +31,7 @@ namespace AroundTheWorld.Globe
             {
                 var country = geocoder.ReverseGeocodeCountry(longitude, latitude);
                 debugText.text = country;
+                onLocationUpdated?.Invoke(country);
             }
             catch (Exception e)
             {

@@ -7,5 +7,8 @@ namespace AroundTheWorld.Quiz
     {
         [SerializeField] private float timerPerQuestion = 5f;
         [SerializeField] private QuizEntry[] entries;
+
+        public QuizEntry[] Entries => entries;
+        public float TimerPerQuestion => timerPerQuestion;
     }
 }

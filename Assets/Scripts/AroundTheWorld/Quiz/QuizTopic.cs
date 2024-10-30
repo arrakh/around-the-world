@@ -10,5 +10,7 @@ namespace AroundTheWorld.Quiz
     {
         [SerializeField] private string title;
         [SerializeField] private QuizLevel[] levels;
+        
+        public QuizLevel[] Levels => levels;
     }
 }
