@@ -93,6 +93,10 @@ MonoBehaviour:
   rotateRoot: {fileID: 4371109264721758364}
   rotateRange: {x: -8, y: 8}
   rotateDelay: 0.8
+  joaoImage: {fileID: 0}
+  defaultSprite: {fileID: 0}
+  happySprite: {fileID: 0}
+  sadSprite: {fileID: 0}
 --- !u!95 &8887237375479245942
 Animator:
   serializedVersion: 5
@@ -351,7 +355,7 @@ GameObject:
   - component: {fileID: 834478137431494447}
   - component: {fileID: 7270353402017198551}
   - component: {fileID: 15844369010273025}
-  - component: {fileID: 7924451870265646492}
+  - component: {fileID: 4652355593602197700}
   m_Layer: 5
   m_Name: JoaoScreen
   m_TagString: Untagged
@@ -368,7 +372,7 @@ RectTransform:
   m_GameObject: {fileID: 3088259689604158769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2939473662343692992}
@@ -382,7 +386,7 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &834478137431494447
 Canvas:
   m_ObjectHideFlags: 0
@@ -446,7 +450,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7924451870265646492
+--- !u!114 &4652355593602197700
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -455,11 +459,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3088259689604158769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93ad7105f98043c79a8977830e6df441, type: 3}
+  m_Script: {fileID: 11500000, guid: 5673d7eb28989d0409ca802426090496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueUI: {fileID: 4463959340329315697}
+  dialogueText: {fileID: 5425988152417345302}
   joaoHead: {fileID: 6666623997176727972}
+  currentState: 0
 --- !u!1 &5509552314201022991
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,8 +549,8 @@ MonoBehaviour:
   m_Texture: {fileID: 2800000, guid: af8afa2aaa77c9042918173992453637, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 157.81764
-    y: 158.57008
+    x: 159.17412
+    y: 159.92656
     width: 4.1025643
     height: 2.7
 --- !u!1 &7177567852988392652

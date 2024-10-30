@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using UnityEngine.UI;
 
 namespace AroundTheWorld.UI
 {
@@ -18,6 +19,12 @@ namespace AroundTheWorld.UI
         [SerializeField] private Vector2 rotateRange = new (-8, 8);
         [SerializeField] private float rotateDelay = 0.8f;
 
+        [Header("Joao State Sprites")]
+        [SerializeField] private Image joaoImage;
+        [SerializeField] private Sprite defaultSprite;
+        [SerializeField] private Sprite happySprite;
+        [SerializeField] private Sprite sadSprite; 
+
         private float currentDelay;
         
         private void Update()
@@ -31,7 +38,23 @@ namespace AroundTheWorld.UI
 
         public void SetState(JoaoState state)
         {
-            
+            switch (state)
+            {
+                case JoaoState.DEFAULT:
+                    joaoImage.sprite = defaultSprite;
+                    animator.SetTrigger("Default");
+                    break;
+                case JoaoState.HAPPY:
+                    joaoImage.sprite = happySprite;
+                    animator.SetTrigger("Happy");
+                    break;
+                case JoaoState.SAD:
+                    joaoImage.sprite = sadSprite;
+                    animator.SetTrigger("Sad");
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(state), state, null);
+            }
         }
     }
 }
