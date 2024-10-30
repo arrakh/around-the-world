@@ -18,6 +18,7 @@ namespace AroundTheWorld.Quiz
 
         private void Update()
         {
+            if (currentTime <= 0f) return;
             currentTime -= Time.deltaTime;
             
             bool isUrgent = currentTime < urgentThreshold;

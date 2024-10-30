@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: TestLvl2
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5
-  entries: []
+  timerPerQuestion: 12
+  entries:
+  - answerLocation: Indonesia
+    questionText: Where is Indonesia?
+    questionImage: {fileID: 673318131, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}

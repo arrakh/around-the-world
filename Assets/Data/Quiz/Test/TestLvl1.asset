@@ -12,5 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: TestLvl1
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5
-  entries: []
+  timerPerQuestion: 15
+  entries:
+  - answerLocation: South Korea
+    questionText: Where is Korea?
+    questionImage: {fileID: -1342757851, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
+  - answerLocation: Mexico
+    questionText: Where is Mexico?
+    questionImage: {fileID: -590559218, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
+  - answerLocation: United Kingdom
+    questionText: Where is United Kingdom?
+    questionImage: {fileID: -1704139602, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}

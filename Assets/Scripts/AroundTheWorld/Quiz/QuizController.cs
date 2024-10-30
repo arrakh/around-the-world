@@ -68,8 +68,13 @@ namespace AroundTheWorld.Quiz
         private void EvaluateAnswer(QuizEntry entry)
         {
             var answer = entry.AnswerLocation.Trim().ToLowerInvariant();
-            if (!answer.Equals(currentAnswer, StringComparison.InvariantCultureIgnoreCase))
-                hasLost = true;
+            if (answer.Equals(currentAnswer, StringComparison.InvariantCultureIgnoreCase)) OnCorrectAnswer();
+            else hasLost = true;
+        }
+
+        private void OnCorrectAnswer()
+        {
+            Debug.Log("CORRECT!!!");
         }
 
         private void InitializeEntry(float timer, QuizEntry entry)
@@ -83,8 +88,9 @@ namespace AroundTheWorld.Quiz
         private QuizLevel InitializeLevel()
         {
             var level = topic.Levels[levelIndex];
+            quizQueue = new Queue<QuizEntry>(level.Entries.Length);
 
-            var randomized = level.Entries.OrderBy(x => Random.Range(0, level.Entries.Length));
+            var randomized = level.Entries.OrderBy(x => Random.Range(int.MinValue, int.MaxValue));
             foreach (var entry in randomized)
                 quizQueue.Enqueue(entry);
             return level;
