@@ -13,12 +13,14 @@ namespace AroundTheWorld.Globe
 
         // Encoder values for determining longitude
         private int previousEncoderValue = 0;
-         private float cumulativeRotation = 0f;
+        private float cumulativeRotation = 0f;
         private const float encoderToDegrees = 9f; // Each encoder unit corresponds to 9 degrees (40 encoder units == 360 degrees) - I did this because again, the values go from 0 to 40 for a full 360 degree rotation west-east and 0 to -40 for east-west
         
         private SerialController serialController;
         
         public bool IsEnabled => enabled;
+
+        private bool shouldResetLongitude = true;
         
         private void Awake()
         {
@@ -30,6 +32,8 @@ namespace AroundTheWorld.Globe
         }
         private void Update()
         {
+            if (Input.GetKey(KeyCode.Space)) shouldResetLongitude = true;
+
             if (serialController != null)
             {
                 string message = serialController.ReadSerialMessage();
@@ -57,12 +61,20 @@ namespace AroundTheWorld.Globe
         private float CalculateLatitude(int potentiometerValue)
         {
             // Map potentiometer range (1023 to 92) to latitude range (-90 to 90)
-            float latitude = Mathf.Lerp(-40f, 90f, (float)(potentiometerValue - minPotentiometerValue) / (maxPotentiometerValue - minPotentiometerValue));
+            float latitude = Mathf.Lerp(-41.2f, 90f, (float)(potentiometerValue - minPotentiometerValue) / (maxPotentiometerValue - minPotentiometerValue));
             return latitude;
         }
 
         private float CalculateLongitude(int encoderValue)
         {
+            if (shouldResetLongitude)
+            {
+                previousEncoderValue = encoderValue;
+                cumulativeRotation = 0f;
+                shouldResetLongitude = false;
+                return 0;
+            }
+            
             // Detect rotation direction and calculate cumulative rotation
             int delta = encoderValue - previousEncoderValue;
 
@@ -73,6 +85,8 @@ namespace AroundTheWorld.Globe
             // Increment cumulative rotation by the degree-equivalent of the delta change
             cumulativeRotation += delta * encoderToDegrees;
             previousEncoderValue = encoderValue;
+            
+            //Debug.Log($"cumulative is now {cumulativeRotation}");
 
             // Map cumulative rotation to longitude range (-180 to 180)
             float longitude = cumulativeRotation % 360f;  // Wrap within 0 to 360

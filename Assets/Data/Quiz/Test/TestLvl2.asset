@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: TestLvl2
   m_EditorClassIdentifier: 
-  timerPerQuestion: 12
+  timerPerQuestion: 50
   entries:
   - answerLocation: Indonesia
     questionText: Where is Indonesia?
