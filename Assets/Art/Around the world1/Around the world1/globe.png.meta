@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6adad0d5bc11e9345834cdadc56560f3
+guid: 1df6a5defafff1340bcfbb0903530488
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,148 +123,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Star_0
+      name: globe_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 765
-        width: 251
-        height: 242
+        x: 90
+        y: 1311
+        width: 276
+        height: 392
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f20784c6f8cab7548828afbdc1af5acc
-      internalID: 1559999864
+      spriteID: a74f7b9afc6fcb548a676ae42168a000
+      internalID: -935907153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_1
+      name: globe_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 630
-        width: 76
-        height: 95
+        x: 537
+        y: 1311
+        width: 277
+        height: 392
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f48c6a8eb5d4c34eb420514c4e4d37f
-      internalID: 2087443873
+      spriteID: 91b5b22559ebcbb46b73aea2dc8f5422
+      internalID: 2100880803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_2
+      name: globe_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 335
-        width: 104
-        height: 99
+        x: 985
+        y: 1311
+        width: 277
+        height: 392
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d0786dd2687ad24691761ea99fabbad
-      internalID: -462089547
+      spriteID: 7a91db7a500e7544695998d06b5eab34
+      internalID: -998543610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_3
+      name: globe_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 67
-        width: 256
-        height: 270
+        x: 1433
+        y: 1311
+        width: 276
+        height: 392
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116001762b8b99a41bbc6f19d25fc8da
-      internalID: 663561671
+      spriteID: e07d8b580fd06b14e956504c10957613
+      internalID: 1459589585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_4
+      name: globe_4
       rect:
         serializedVersion: 2
-        x: 1599
-        y: 768
-        width: 256
-        height: 248
+        x: 90
+        y: 714
+        width: 276
+        height: 392
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18cb7a6a3a3c0dc469c0c33d8d69bf52
-      internalID: 1275105688
+      spriteID: f9c86c32d7c3c364c8d1a0d7067875dd
+      internalID: -805926990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_5
+      name: globe_5
       rect:
         serializedVersion: 2
-        x: 1753
-        y: 554
-        width: 113
-        height: 92
+        x: 537
+        y: 714
+        width: 277
+        height: 392
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 037947b2d12632f41b939ef4ca6dacbb
-      internalID: 1171583220
+      spriteID: 4b655cc22673b5c49a490dd2108343bf
+      internalID: -1167237510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_6
+      name: globe_6
       rect:
         serializedVersion: 2
-        x: 1598
-        y: 64
-        width: 253
-        height: 274
+        x: 985
+        y: 714
+        width: 277
+        height: 392
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd435157390a5e545b0363fc09444043
-      internalID: -1522437279
+      spriteID: b8be6f427f009c14a854634f035daa8f
+      internalID: 1792597594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_7
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 714
+        width: 276
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cdfeb5cc0cb0a41ab83141d0a1c3f3
+      internalID: 526648006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 117
+        width: 276
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0186a30be16d194084a1923cc52d857
+      internalID: -610570199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 117
+        width: 277
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a24a6ea138161b42a96b1a4b3507a45
+      internalID: 706781719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_10
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 117
+        width: 277
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d7b1e7b30569a4db09bdebb97f33a4
+      internalID: 373841290
       vertices: []
       indices: 
       edges: []
@@ -280,13 +364,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Star_0: 1559999864
-      Star_1: 2087443873
-      Star_2: -462089547
-      Star_3: 663561671
-      Star_4: 1275105688
-      Star_5: 1171583220
-      Star_6: -1522437279
+      globe_0: -935907153
+      globe_1: 2100880803
+      globe_10: 373841290
+      globe_2: -998543610
+      globe_3: 1459589585
+      globe_4: -805926990
+      globe_5: -1167237510
+      globe_6: 1792597594
+      globe_7: 526648006
+      globe_8: -610570199
+      globe_9: 706781719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

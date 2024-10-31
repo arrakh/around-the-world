@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6adad0d5bc11e9345834cdadc56560f3
+guid: c0744db33ef9a024fb03b97a38eb88ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,148 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Star_0
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 765
-        width: 251
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f20784c6f8cab7548828afbdc1af5acc
-      internalID: 1559999864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Star_1
+      name: check box and tape_0
       rect:
         serializedVersion: 2
         x: 42
-        y: 630
-        width: 76
-        height: 95
+        y: 238
+        width: 394
+        height: 106
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f48c6a8eb5d4c34eb420514c4e4d37f
-      internalID: 2087443873
+      spriteID: 5d7ef8f6019d3e248a84bee2a1b097e5
+      internalID: 865411003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_2
+      name: check box and tape_1
       rect:
         serializedVersion: 2
-        x: 52
-        y: 335
-        width: 104
-        height: 99
+        x: 468
+        y: 249
+        width: 115
+        height: 85
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d0786dd2687ad24691761ea99fabbad
-      internalID: -462089547
+      spriteID: ab03984781a2abf409d35c78c90aac81
+      internalID: -970422570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_3
+      name: check box and tape_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 67
-        width: 256
-        height: 270
+        x: 86
+        y: 140
+        width: 285
+        height: 94
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116001762b8b99a41bbc6f19d25fc8da
-      internalID: 663561671
+      spriteID: bcabe6f8d82d9d64196f6a245d561b79
+      internalID: -545306342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Star_4
+      name: check box and tape_3
       rect:
         serializedVersion: 2
-        x: 1599
-        y: 768
-        width: 256
-        height: 248
+        x: 57
+        y: 53
+        width: 363
+        height: 85
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18cb7a6a3a3c0dc469c0c33d8d69bf52
-      internalID: 1275105688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Star_5
-      rect:
-        serializedVersion: 2
-        x: 1753
-        y: 554
-        width: 113
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 037947b2d12632f41b939ef4ca6dacbb
-      internalID: 1171583220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Star_6
-      rect:
-        serializedVersion: 2
-        x: 1598
-        y: 64
-        width: 253
-        height: 274
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd435157390a5e545b0363fc09444043
-      internalID: -1522437279
+      spriteID: 074fa4bf3c6751a42ae0973f262e439f
+      internalID: 1837949075
       vertices: []
       indices: 
       edges: []
@@ -280,13 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Star_0: 1559999864
-      Star_1: 2087443873
-      Star_2: -462089547
-      Star_3: 663561671
-      Star_4: 1275105688
-      Star_5: 1171583220
-      Star_6: -1522437279
+      check box and tape_0: 865411003
+      check box and tape_1: -970422570
+      check box and tape_2: -545306342
+      check box and tape_3: 1837949075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
