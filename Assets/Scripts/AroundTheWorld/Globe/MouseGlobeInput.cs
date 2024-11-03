@@ -18,7 +18,6 @@ namespace AroundTheWorld.Globe
         {
             lastMousePos = Input.mousePosition;
             Cursor.lockState = CursorLockMode.Confined;
-            Cursor.visible = false;
         }
 
         private void Update()

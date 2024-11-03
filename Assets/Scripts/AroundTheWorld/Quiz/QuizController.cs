@@ -34,9 +34,10 @@ namespace AroundTheWorld.Quiz
 
         private Queue<QuizEntry> quizQueue = new();
 
+        public const string HAS_SEEN_TUTORIAL = "has-seen-tutorial";
+
         private IEnumerator Start()
         {
-            joaoScreen.gameObject.SetActive(false);
             quizPromptUi.gameObject.SetActive(false);
 
             globeController.onLocationUpdated += OnLocationUpdated;
@@ -47,6 +48,10 @@ namespace AroundTheWorld.Quiz
 
             levelIndex = 0;
             
+            bool hasSeenTutorial = PlayerPrefs.HasKey(HAS_SEEN_TUTORIAL);
+            if (!hasSeenTutorial) yield return TutorialSequence();
+            
+            joaoScreen.gameObject.SetActive(false);
             fadeUi.FadeOut(1f);
             yield return new WaitForSeconds(1f);
 
@@ -103,6 +108,24 @@ namespace AroundTheWorld.Quiz
             SceneManager.LoadScene("MainMenu");
         }
 
+        private IEnumerator TutorialSequence()
+        {
+            joaoScreen.gameObject.SetActive(true);
+            
+            fadeUi.FadeOut(1f);
+            yield return new WaitForSeconds(1f);
+            
+            yield return joaoScreen.Display($"Welcome to Around The World!", 2f, JoaoState.HAPPY);
+            yield return joaoScreen.Display($"To win, collect cards by answering where it originates from!", 2f, JoaoState.DEFAULT);
+            yield return joaoScreen.Display($"To answer, spin both dials on the bottom of the globe to select a country!", 2f, JoaoState.DEFAULT);
+            yield return joaoScreen.Display($"Good luck!", 2f, JoaoState.HAPPY);
+            
+            PlayerPrefs.SetInt(HAS_SEEN_TUTORIAL, 0);
+            
+            fadeUi.FadeIn(3f);
+            yield return new WaitForSeconds(3f);
+        }
+        
         private IEnumerator OnAnswerCorrect(string entryAnswerLocation)
         {
             score++;
