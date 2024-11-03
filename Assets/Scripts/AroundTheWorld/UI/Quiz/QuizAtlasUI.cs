@@ -30,8 +30,8 @@ namespace AroundTheWorld.UI.Quiz
         public bool TryGetRandomPosition(string location, out Vector3 position)
         {
             //debug
-            position = locations[Random.Range(0, locations.Length)].GetRandomPosition();
-            return true;
+            /*position = locations[Random.Range(0, locations.Length)].GetRandomPosition();
+            return true;*/
 
             position = default;
             if (!locationsDict.TryGetValue(location, out var loc)) return false;
