@@ -98,11 +98,11 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: -5
+  m_characterSpacing: -8
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -252,6 +252,75 @@ MonoBehaviour:
   promptText: {fileID: 4547551193067085467}
   promptImage: {fileID: 4510584183612826443}
   answerText: {fileID: 2727822343367968761}
+  holder: {fileID: 7055330443810828334}
+  scaleFromTo: {x: 1, y: 0.15}
+  animDuration: 0.6
+  scaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -1.7999977
+      outSlope: -1.7999977
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.6078549
+    - serializedVersion: 3
+      time: 0.3954923
+      value: 0.01672107
+      inSlope: 3.2216837
+      outSlope: 3.2216837
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21335714
+      outWeight: 0.122990966
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.02008936
+      outSlope: 0.02008936
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.51465213
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  positionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.8958333
+      outSlope: 1.8958333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.54320836
+    - serializedVersion: 3
+      time: 0.3092361
+      value: 0.12028767
+      inSlope: -0.35166678
+      outSlope: -0.35166678
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.43667284
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 3.9374862
+      outSlope: 3.9374862
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.073532835
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5461565412758556814
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fa5e5f2eaa0776545aec06b0efe0e866, type: 3}
+  m_Sprite: {fileID: 689928002, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -436,8 +505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 174.66}
+  m_AnchoredPosition: {x: 0, y: 72}
+  m_SizeDelta: {x: -80, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &460084563715064789
 CanvasRenderer:
@@ -494,12 +563,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 112
+  m_fontSize: 100
   m_fontSizeBase: 112
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 112
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -562,7 +631,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0.043619405, w: 0.9990483}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4918257170191251184}
   - {fileID: 12200009111065070}

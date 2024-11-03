@@ -1,19 +1,21 @@
 ﻿using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace AroundTheWorld.Quiz
 {
     public class QuizTimerUI : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI timerText;
+        [SerializeField] private Image fillImage;
         [SerializeField] private float urgentThreshold = 3f;
         
-        private float currentTime;
+        private float currentTime, maxTime;
         
         public void Set(float time)
         {
-            currentTime = time;
+            currentTime = maxTime = time;
         }
 
         private void Update()
@@ -25,6 +27,8 @@ namespace AroundTheWorld.Quiz
 
             timerText.text = currentTime.ToString(isUrgent ? "F1" : "F0");
             timerText.color = isUrgent ? Color.red : Color.white;
+
+            fillImage.fillAmount = currentTime / maxTime;
         }
     }
 }

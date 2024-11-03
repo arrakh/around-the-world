@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using AroundTheWorld.Globe;
+using AroundTheWorld.UI;
 using AroundTheWorld.UI.Quiz;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -13,8 +14,12 @@ namespace AroundTheWorld.Quiz
     public class QuizController : MonoBehaviour
     {
         [SerializeField] private QuizPromptUI quizPromptUi;
-        [FormerlySerializedAs("quizTimer")] [SerializeField] private QuizTimerUI quizTimerUI;
+        [SerializeField] private QuizTimerUI quizTimerUI;
         [SerializeField] private GlobeController globeController;
+        [SerializeField] private QuizAtlasUI atlasUi;
+        [SerializeField] private QuizPromptUI quizPromptPrefab;
+        [SerializeField] private QuizJoaoUI joaoUi;
+        [SerializeField] private FadeUI fadeUi;
         
         private QuizTopic topic;
         
@@ -23,7 +28,7 @@ namespace AroundTheWorld.Quiz
 
         private bool hasLost = false;
 
-        private string currentAnswer;
+        private string currentAnswer = String.Empty;
 
         private Queue<QuizEntry> quizQueue = new();
 
@@ -31,9 +36,14 @@ namespace AroundTheWorld.Quiz
         {
             globeController.onLocationUpdated += OnLocationUpdated;
             topic = QuizConfiguration.CurrentTopic;
+            joaoUi.SetNeutral();
+            
             if (topic == null) throw new Exception("TOPIC IS NOT SET IN QUIZ CONFIGURATION");
 
             levelIndex = 0;
+            
+            fadeUi.FadeOut(1f);
+            yield return new WaitForSeconds(1f);
 
             //Game Loop
             while (!hasLost && levelIndex < topic.Levels.Length)
@@ -42,6 +52,10 @@ namespace AroundTheWorld.Quiz
 
                 while (!hasLost && quizQueue.Count > 0)
                 {
+                    joaoUi.SetNeutral();
+
+                    quizPromptUi.gameObject.SetActive(true);
+                    
                     var timer = level.TimerPerQuestion;
                     var entry = quizQueue.Dequeue();
                     
@@ -49,7 +63,13 @@ namespace AroundTheWorld.Quiz
 
                     yield return new WaitForSeconds(timer);
 
-                    EvaluateAnswer(entry);
+                    var answer = entry.AnswerLocation.Trim().ToLowerInvariant();
+                    
+                    hasLost = !currentAnswer.Contains(answer, StringComparison.InvariantCultureIgnoreCase);
+                    
+                    joaoUi.Display(!hasLost);
+                    
+                    if (!hasLost) yield return OnAnswerCorrect(entry.AnswerLocation);
                 }
 
                 levelIndex++;
@@ -65,16 +85,15 @@ namespace AroundTheWorld.Quiz
             }
         }
 
-        private void EvaluateAnswer(QuizEntry entry)
+        private IEnumerator OnAnswerCorrect(string entryAnswerLocation)
         {
-            var answer = entry.AnswerLocation.Trim().ToLowerInvariant();
-            if (answer.Equals(currentAnswer, StringComparison.InvariantCultureIgnoreCase)) OnCorrectAnswer();
-            else hasLost = true;
-        }
+             if (!atlasUi.TryGetRandomPosition(entryAnswerLocation, out var position)) yield break;
+             quizPromptUi.gameObject.SetActive(false);
 
-        private void OnCorrectAnswer()
-        {
-            Debug.Log("CORRECT!!!");
+             var fakePrompt = Instantiate(quizPromptPrefab);
+             fakePrompt.SetSortingOrder(-1);
+
+             yield return fakePrompt.AnimateToAtlas(position);
         }
 
         private void InitializeEntry(float timer, QuizEntry entry)
