@@ -34,6 +34,8 @@ namespace AroundTheWorld.Quiz
 
         private IEnumerator Start()
         {
+            quizPromptUi.gameObject.SetActive(false);
+
             globeController.onLocationUpdated += OnLocationUpdated;
             topic = QuizConfiguration.CurrentTopic;
             joaoUi.SetNeutral();
@@ -55,6 +57,7 @@ namespace AroundTheWorld.Quiz
                     joaoUi.SetNeutral();
 
                     quizPromptUi.gameObject.SetActive(true);
+                    quizPromptUi.AnimateIn();
                     
                     var timer = level.TimerPerQuestion;
                     var entry = quizQueue.Dequeue();
@@ -91,6 +94,7 @@ namespace AroundTheWorld.Quiz
              quizPromptUi.gameObject.SetActive(false);
 
              var fakePrompt = Instantiate(quizPromptPrefab);
+             fakePrompt.Copy(quizPromptPrefab);
              fakePrompt.SetSortingOrder(-1);
 
              yield return fakePrompt.AnimateToAtlas(position);

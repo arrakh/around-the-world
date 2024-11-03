@@ -255,6 +255,7 @@ MonoBehaviour:
   holder: {fileID: 7055330443810828334}
   scaleFromTo: {x: 1, y: 0.15}
   animDuration: 0.6
+  afterAnimDelay: 0.4
   scaleCurve:
     serializedVersion: 2
     m_Curve:
@@ -317,6 +318,66 @@ MonoBehaviour:
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.073532835
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  localXPosFromTo: {x: -860, y: -460}
+  localZRotFromTo: {x: 20, y: 5}
+  inAnimDuration: 1.2
+  inPosCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.0404875
+      outSlope: 3.0404875
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.027149322
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  inRotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.104645774
+      outSlope: 0.104645774
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.27418482
+    - serializedVersion: 3
+      time: 0.6947
+      value: 0.31791645
+      inSlope: 1.111773
+      outSlope: 1.111773
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.355305
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: -3.537251
+      outSlope: -3.537251
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21836443
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
