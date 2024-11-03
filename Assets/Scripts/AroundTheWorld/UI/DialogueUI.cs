@@ -9,8 +9,10 @@ namespace AroundTheWorld.UI
     {
         [SerializeField] private TextMeshProUGUI lineText;
         [SerializeField] private float letterPause;
+
+        public void ClearText() => lineText.text = string.Empty;
         
-        public IEnumerator TypeSentence(string targetText)
+        public IEnumerator TypeSentence(string targetText, float textDelay)
         {
             lineText.text = "";
 
@@ -39,6 +41,8 @@ namespace AroundTheWorld.UI
                     }
                 }
             }
+
+            yield return new WaitForSeconds(textDelay);
         }
     }
 }

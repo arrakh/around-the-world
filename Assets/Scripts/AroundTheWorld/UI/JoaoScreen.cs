@@ -8,14 +8,15 @@ namespace AroundTheWorld.UI.Quiz
     public class JoaoScreen : MonoBehaviour
     {
         [SerializeField] private DialogueUI dialogueUI;
-        [SerializeField] private TextMeshProUGUI dialogueText;
         [SerializeField] private JoaoHead joaoHead;
         [SerializeField] private JoaoState currentState = JoaoState.DEFAULT;
 
+        public void ClearText() => dialogueUI.ClearText();
 
-        public void ChangeText(string text)
+        public IEnumerator Display(string text, float textDelay, JoaoState newState)
         {
-            dialogueText.text = text;
+            UpdateJoaoState(newState);
+            return dialogueUI.TypeSentence(text, textDelay);
         }
 
         public void UpdateJoaoState(JoaoState newState)

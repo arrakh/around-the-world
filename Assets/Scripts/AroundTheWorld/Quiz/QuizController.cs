@@ -6,6 +6,7 @@ using AroundTheWorld.Globe;
 using AroundTheWorld.UI;
 using AroundTheWorld.UI.Quiz;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
@@ -19,6 +20,7 @@ namespace AroundTheWorld.Quiz
         [SerializeField] private QuizAtlasUI atlasUi;
         [SerializeField] private QuizPromptUI quizPromptPrefab;
         [SerializeField] private QuizJoaoUI joaoUi;
+        [SerializeField] private JoaoScreen joaoScreen;
         [SerializeField] private FadeUI fadeUi;
         
         private QuizTopic topic;
@@ -34,6 +36,7 @@ namespace AroundTheWorld.Quiz
 
         private IEnumerator Start()
         {
+            joaoScreen.gameObject.SetActive(false);
             quizPromptUi.gameObject.SetActive(false);
 
             globeController.onLocationUpdated += OnLocationUpdated;
@@ -78,26 +81,39 @@ namespace AroundTheWorld.Quiz
                 levelIndex++;
             }
 
-            if (hasLost)
-            {
-                Debug.Log("LOST!!!");
-            }
-            else
-            {
-                Debug.Log("WIN!!!");
-            }
+            yield return new WaitForSeconds(1f);
+            
+            fadeUi.FadeIn(2f);
+            yield return new WaitForSeconds(2f);
+
+            joaoScreen.gameObject.SetActive(true);
+            joaoScreen.ClearText();
+            
+            fadeUi.FadeOut(0.6f);
+            yield return new WaitForSeconds(0.6f);
+
+            yield return joaoScreen.Display($"Game is over! you collected {score} cards!", 2f, JoaoState.DEFAULT);
+
+            if (hasLost) yield return joaoScreen.Display("Unfortunately that's not enough to proceed to the next level, try again next time!", 2f, JoaoState.SAD);
+            else yield return joaoScreen.Display("You completed all the questions, Congratulations! Now to another topic!", 2f, JoaoState.HAPPY);
+            
+            fadeUi.FadeIn(2f);
+            yield return new WaitForSeconds(2f);
+
+            SceneManager.LoadScene("MainMenu");
         }
 
         private IEnumerator OnAnswerCorrect(string entryAnswerLocation)
         {
-             if (!atlasUi.TryGetRandomPosition(entryAnswerLocation, out var position)) yield break;
-             quizPromptUi.gameObject.SetActive(false);
+            score++;
+            if (!atlasUi.TryGetRandomPosition(entryAnswerLocation, out var position)) yield break;
+            quizPromptUi.gameObject.SetActive(false);
 
-             var fakePrompt = Instantiate(quizPromptPrefab);
-             fakePrompt.Copy(quizPromptPrefab);
-             fakePrompt.SetSortingOrder(-1);
+            var fakePrompt = Instantiate(quizPromptPrefab);
+            fakePrompt.Copy(quizPromptPrefab);
+            fakePrompt.SetSortingOrder(-1);
 
-             yield return fakePrompt.AnimateToAtlas(position);
+            yield return fakePrompt.AnimateToAtlas(position);
         }
 
         private void InitializeEntry(float timer, QuizEntry entry)
