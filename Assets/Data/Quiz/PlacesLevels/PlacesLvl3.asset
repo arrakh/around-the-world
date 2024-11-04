@@ -17,7 +17,7 @@ MonoBehaviour:
   - answerLocation: 'Portugal '
     questionText: Where is this place?
     questionImage: {fileID: -1681143643, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
-  - answerLocation: USA
+  - answerLocation: America
     questionText: Where is this place?
     questionImage: {fileID: 869706555, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: United Kingdom

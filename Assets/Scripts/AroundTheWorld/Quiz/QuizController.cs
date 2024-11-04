@@ -133,7 +133,7 @@ namespace AroundTheWorld.Quiz
             quizPromptUi.gameObject.SetActive(false);
 
             var fakePrompt = Instantiate(quizPromptPrefab);
-            fakePrompt.Copy(quizPromptPrefab);
+            fakePrompt.Copy(quizPromptUi);
             fakePrompt.SetSortingOrder(-1);
 
             yield return fakePrompt.AnimateToAtlas(position);

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: PeopleLvl2
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5.11
+  timerPerQuestion: 7
   entries:
   - answerLocation: Nigeria
     questionText: Where is this person from?

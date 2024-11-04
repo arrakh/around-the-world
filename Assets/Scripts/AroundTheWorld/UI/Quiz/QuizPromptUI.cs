@@ -79,6 +79,7 @@ namespace AroundTheWorld.UI.Quiz
 
         public void Copy(QuizPromptUI other)
         {
+            Debug.Log($"COPYING PROMPT WITH ANSWER {other.answerText.text}");
             promptText.text = other.promptText.text;
             promptImage.sprite = other.promptImage.sprite;
             answerText.text = other.answerText.text;

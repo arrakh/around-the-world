@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: PlacesLvl1
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5
+  timerPerQuestion: 15
   entries:
   - answerLocation: France
     questionText: Where is this place?
@@ -20,7 +20,7 @@ MonoBehaviour:
   - answerLocation: 'United Kingdom '
     questionText: Where is this place?
     questionImage: {fileID: -84224290, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
-  - answerLocation: USA
+  - answerLocation: America
     questionText: Where is this place?
     questionImage: {fileID: -838451012, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Japan

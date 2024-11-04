@@ -54,7 +54,7 @@ namespace AroundTheWorld.Globe
                 currentLongitude = CalculateLongitude(encoderValue);
 
                 // Print the results
-                Debug.Log($"Latitude: {currentLatitude}, Longitude: {currentLongitude}, Potentiometer: {potentiometerValue}, Encoder: {encoderValue}");
+                //Debug.Log($"Latitude: {currentLatitude}, Longitude: {currentLongitude}, Potentiometer: {potentiometerValue}, Encoder: {encoderValue}");
             }
         }
 

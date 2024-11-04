@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: PeopleLvl1
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5
+  timerPerQuestion: 15
   entries:
   - answerLocation: South Africa
     questionText: Where is this person from?
@@ -20,7 +20,7 @@ MonoBehaviour:
   - answerLocation: North Korea
     questionText: Where is this person from?
     questionImage: {fileID: 1743613668, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
-  - answerLocation: USA
+  - answerLocation: America
     questionText: Where is this person from?
     questionImage: {fileID: 668792028, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Russia
@@ -29,9 +29,6 @@ MonoBehaviour:
   - answerLocation: Japan
     questionText: Where is this person from?
     questionImage: {fileID: 1329490682, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
-  - answerLocation: South Korea
-    questionText: Where is this person from?
-    questionImage: {fileID: -1828654257, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Saudi Arabia
     questionText: Where is this person from?
     questionImage: {fileID: -911048553, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
