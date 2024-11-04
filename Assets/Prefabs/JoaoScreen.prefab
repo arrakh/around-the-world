@@ -515,7 +515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.3764706}
+  m_Color: {r: 0.5921569, g: 0.5921569, b: 0.5921569, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -564,8 +564,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8647948088241715595}
   - {fileID: 312770496028203579}
+  - {fileID: 8647948088241715595}
   - {fileID: 5686338097226747834}
   - {fileID: 2090224720028817348}
   - {fileID: 5813907525429050014}
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.69411767}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -949,10 +949,10 @@ MonoBehaviour:
   m_Texture: {fileID: 2800000, guid: af8afa2aaa77c9042918173992453637, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 327.9904
-    y: 328.74295
-    width: 6.153846
-    height: 4.05
+    x: 338.50272
+    y: 339.25528
+    width: 5.5
+    height: 3.5
 --- !u!1 &7177567852988392652
 GameObject:
   m_ObjectHideFlags: 0

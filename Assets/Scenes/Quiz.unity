@@ -399,7 +399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3088259689604158769, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4371109264721758364, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -557,7 +557,7 @@ PrefabInstance:
     - {fileID: 3231876189918957551, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7722164691336087565, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
-      insertIndex: 2
+      insertIndex: -1
       addedObject: {fileID: 1411576655}
     - targetCorrespondingSourceObject: {fileID: 7722164691336087565, guid: 6a787c1173cfa0747821815015c1c2f9, type: 3}
       insertIndex: -1
@@ -3874,7 +3874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 674890383459279801, guid: e88e332068b3220418f807db6f93d84f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 21
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 674890383459279801, guid: e88e332068b3220418f807db6f93d84f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
