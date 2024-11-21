@@ -12,35 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: PlacesLvl2
   m_EditorClassIdentifier: 
-  timerPerQuestion: 7
+  timerPerQuestion: 20
   entries:
   - answerLocation: 'Thailand '
-    questionText: Where is this place?
+    questionText: Krung Thep Maha Nakhon
     questionImage: {fileID: 1967411561, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Peru
-    questionText: Where is this place?
+    questionText: Machu Picchu
     questionImage: {fileID: 612332409, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: 'Denmark '
-    questionText: Where is this place?
+    questionText: Little Mermaid
     questionImage: {fileID: 1853897589, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Belgium
-    questionText: Where is this place?
+    questionText: Manneken Pis
     questionImage: {fileID: 2115355771, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Malaysia
-    questionText: Where is this place?
+    questionText: Petronas Twin Towers
     questionImage: {fileID: -1453260283, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: China
-    questionText: Where is this place?
+    questionText: The Forbidden City
     questionImage: {fileID: 225621417, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Italy
-    questionText: Where is this place?
+    questionText: Bridge of Sighs
     questionImage: {fileID: 103135926, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
-  - answerLocation: USA
-    questionText: Where is this place?
+  - answerLocation: America
+    questionText: Pentagon
     questionImage: {fileID: 409122891, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: 'United Arab Emirates '
-    questionText: Where is this place?
+    questionText: Burj Al Arab
     questionImage: {fileID: 1921640690, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Japan
-    questionText: Where is this place?
+    questionText: Tokyo Tower
     questionImage: {fileID: -2064998749, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}

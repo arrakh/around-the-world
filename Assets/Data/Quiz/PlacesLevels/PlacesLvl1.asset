@@ -12,35 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: PlacesLvl1
   m_EditorClassIdentifier: 
-  timerPerQuestion: 15
+  timerPerQuestion: 30
   entries:
   - answerLocation: France
-    questionText: Where is this place?
+    questionText: Eiffel Tower
     questionImage: {fileID: -1381786598, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: 'United Kingdom '
-    questionText: Where is this place?
+    questionText: Big Ben
     questionImage: {fileID: -84224290, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: America
-    questionText: Where is this place?
+    questionText: Statue of Liberty
     questionImage: {fileID: -838451012, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Japan
-    questionText: Where is this place?
+    questionText: Mount Fuji
     questionImage: {fileID: -103128119, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: India
-    questionText: Where is this place?
+    questionText: Taj Mahal
     questionImage: {fileID: 841490688, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Italy
-    questionText: Where is this place?
+    questionText: Pisa Tower
     questionImage: {fileID: -814480921, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Australia
-    questionText: Where is this place?
+    questionText: Sydney Opera House
     questionImage: {fileID: 1559301940, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
-  - answerLocation: China
+  - answerLocation: The Great Wall
     questionText: Where is this place?
     questionImage: {fileID: -1085376676, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Singapore
-    questionText: Where is this place?
+    questionText: Merlion
     questionImage: {fileID: 146715219, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}
   - answerLocation: Egypt
-    questionText: Where is this place?
+    questionText: Pyramid
     questionImage: {fileID: -878017707, guid: e888ccacd2ae48c42bd43b8f2155fc07, type: 3}

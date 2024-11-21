@@ -5,6 +5,7 @@ using System.Linq;
 using AroundTheWorld.Globe;
 using AroundTheWorld.UI;
 using AroundTheWorld.UI.Quiz;
+using AroundTheWorld.Utilities;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
@@ -33,6 +34,8 @@ namespace AroundTheWorld.Quiz
         private string currentAnswer = String.Empty;
 
         private Queue<QuizEntry> quizQueue = new();
+        private WaitForSecondsInterruptible waitQuiz;
+        
 
         public const string HAS_SEEN_TUTORIAL = "has-seen-tutorial";
 
@@ -62,6 +65,8 @@ namespace AroundTheWorld.Quiz
 
                 while (quizQueue.Count > 0)
                 {
+                    if (levelIndex != 0) yield return CheckForGlobeReset();
+
                     joaoUi.SetNeutral();
 
                     quizPromptUi.gameObject.SetActive(true);
@@ -71,8 +76,9 @@ namespace AroundTheWorld.Quiz
                     var entry = quizQueue.Dequeue();
                     
                     InitializeEntry(timer, entry);
+                    waitQuiz = new WaitForSecondsInterruptible(timer);
 
-                    yield return new WaitForSeconds(timer);
+                    yield return waitQuiz;
 
                     var answer = entry.AnswerLocation.Trim().ToLowerInvariant();
                     
@@ -83,7 +89,8 @@ namespace AroundTheWorld.Quiz
                     if (!hasLost && !isAnswerCorrect) hasLost = true;
 
                     if (isAnswerCorrect) yield return OnAnswerCorrect(entry.AnswerLocation);
-                    else yield return new WaitForSeconds(1f);
+                    
+                    yield return new WaitForSeconds(2f);
                 }
 
                 levelIndex++;
@@ -111,6 +118,19 @@ namespace AroundTheWorld.Quiz
             SceneManager.LoadScene("MainMenu");
         }
 
+        private IEnumerator CheckForGlobeReset()
+        {
+            if (!globeController.TryGetActiveInput(out var activeInput)) yield break;
+
+            if (activeInput is not ArduinoGlobeInput globeInput) yield break;
+            
+            joaoScreen.gameObject.SetActive(true);
+            yield return joaoScreen.Display($"Point your globe cursor to the Null Point and press Space!", 0f, JoaoState.DEFAULT);
+
+            yield return new WaitUntil(() => globeInput.ShouldResetLongitude);
+            joaoScreen.gameObject.SetActive(false);
+        }
+
         private IEnumerator TutorialSequence()
         {
             joaoScreen.gameObject.SetActive(true);
@@ -128,7 +148,12 @@ namespace AroundTheWorld.Quiz
             fadeUi.FadeIn(3f);
             yield return new WaitForSeconds(3f);
         }
-        
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space) && waitQuiz != null) waitQuiz.Interrupt();
+        }
+
         private IEnumerator OnAnswerCorrect(string entryAnswerLocation)
         {
             score++;

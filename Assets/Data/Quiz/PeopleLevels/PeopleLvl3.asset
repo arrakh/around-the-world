@@ -12,35 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: PeopleLvl3
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5
+  timerPerQuestion: 12
   entries:
   - answerLocation: Japan
-    questionText: Where is this person from?
+    questionText: Hirohito
     questionImage: {fileID: -2041900145, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Vietnam
-    questionText: Where is this person from?
+    questionText: Hen Nie
     questionImage: {fileID: -605875527, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Pakistan
-    questionText: Where is this person from?
+    questionText: Shahid Afridi
     questionImage: {fileID: 654637083, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: India
-    questionText: Where is this person from?
+    questionText: Ratan Naval Tata
     questionImage: {fileID: 642607759, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Italy
-    questionText: Where is this person from?
+    questionText: Chiari Ferragni
     questionImage: {fileID: -767428377, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Germany
-    questionText: Where is this person from?
+    questionText: Zedd
     questionImage: {fileID: -1237296705, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Mexico
-    questionText: Where is this person from?
+    questionText: Guillermo Del Toro
     questionImage: {fileID: -1543806593, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Indonesia
-    questionText: Where is this person from?
+    questionText: Rich Brian
     questionImage: {fileID: 645968499, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Nigeria
-    questionText: Where is this person from?
+    questionText: Wole Soyinka
     questionImage: {fileID: -1738614543, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}
   - answerLocation: Ghana
-    questionText: Where is this person from?
+    questionText: Kwame Nkrumah
     questionImage: {fileID: -402288106, guid: 698a2f0341c64274387d314ea4e77a4a, type: 3}

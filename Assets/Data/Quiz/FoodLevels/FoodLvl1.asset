@@ -12,32 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: FoodLvl1
   m_EditorClassIdentifier: 
-  timerPerQuestion: 15
+  timerPerQuestion: 30
   entries:
   - answerLocation: France
-    questionText: Where is this food from?
+    questionText: Croissant
     questionImage: {fileID: 233385386, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Japan
-    questionText: Where is this food from?
+    questionText: Sushi
     questionImage: {fileID: -2069827644, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Mexico
-    questionText: Where is this food from?
+    questionText: Tacos
     questionImage: {fileID: -590559218, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
-  - answerLocation: Italy
-    questionText: Where is this food from?
-    questionImage: {fileID: 1246511168, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Turkey
-    questionText: Where is this food from?
+    questionText: Baklava
     questionImage: {fileID: -1704139602, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Germany
-    questionText: Where is this food from?
+    questionText: Bratwurst
     questionImage: {fileID: -1493566546, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
-  - answerLocation: Portugal
-    questionText: Where is this food from?
-    questionImage: {fileID: -662445866, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: United Kingdom
-    questionText: Where is this food from?
+    questionText: Fish and Chips
     questionImage: {fileID: -1748984454, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: China
-    questionText: Where is this food from?
+    questionText: Peking Duck
     questionImage: {fileID: 1429592346, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}

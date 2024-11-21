@@ -12,35 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: FoodLvl2
   m_EditorClassIdentifier: 
-  timerPerQuestion: 7
+  timerPerQuestion: 20
   entries:
   - answerLocation: Malaysia
-    questionText: Where is this food from?
+    questionText: Nasi Lemak
     questionImage: {fileID: -1244318846, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Vietnam
-    questionText: Where is this food from?
+    questionText: Pho
     questionImage: {fileID: 1492856874, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: France
-    questionText: Where is this food from?
+    questionText: Macarons
     questionImage: {fileID: 556478452, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
-  - answerLocation: South Korea
-    questionText: Where is this food from?
-    questionImage: {fileID: -1927262286, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Japan
-    questionText: Where is this food from?
+    questionText: Okonomiyaki
     questionImage: {fileID: 1925971732, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Thailand
     questionText: Where is this food from?
     questionImage: {fileID: -1464774148, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Spain
-    questionText: Where is this food from?
+    questionText: Tom Yum
     questionImage: {fileID: 221644890, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
-  - answerLocation: Russia
-    questionText: Where is this food from?
-    questionImage: {fileID: 163958842, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: China
-    questionText: Where is this food from?
+    questionText: Xiao Long Bao
     questionImage: {fileID: -860108226, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Ukraine
-    questionText: Where is this food from?
+    questionText: Borsch
     questionImage: {fileID: 1605306067, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}

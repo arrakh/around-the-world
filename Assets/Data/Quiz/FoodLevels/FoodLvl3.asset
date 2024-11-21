@@ -12,35 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9473d03ce87f4e6db0ed11320c53d6d4, type: 3}
   m_Name: FoodLvl3
   m_EditorClassIdentifier: 
-  timerPerQuestion: 5
+  timerPerQuestion: 12
   entries:
   - answerLocation: Finland
-    questionText: Where is this food from?
+    questionText: Lohikeitto
     questionImage: {fileID: 70699478, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Hungary
-    questionText: Where is this food from?
+    questionText: "K\xFCrt\u0151skal\xE1cs"
     questionImage: {fileID: -1015858462, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: South Africa
-    questionText: Where is this food from?
+    questionText: Bunny Chow
     questionImage: {fileID: 2052185150, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Canada
-    questionText: Where is this food from?
+    questionText: Poutine
     questionImage: {fileID: -991077154, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: China
-    questionText: Where is this food from?
+    questionText: Zongzi
     questionImage: {fileID: 673318131, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Iran
-    questionText: Where is this food from?
+    questionText: Fesenjan
     questionImage: {fileID: -1017937510, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Australia
-    questionText: Where is this food from?
+    questionText: Iced VoVo
     questionImage: {fileID: 575770414, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Nigeria
-    questionText: Where is this food from?
+    questionText: Egusi
     questionImage: {fileID: 950829473, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Iceland
-    questionText: Where is this food from?
+    questionText: Hakari
     questionImage: {fileID: -1468397949, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Turkey
-    questionText: Where is this food from?
+    questionText: Kokorej
     questionImage: {fileID: 1489086183, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
