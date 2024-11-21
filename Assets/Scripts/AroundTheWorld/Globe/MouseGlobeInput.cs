@@ -14,7 +14,7 @@ namespace AroundTheWorld.Globe
 
         public bool IsEnabled => enabled;
 
-        private void Awake()
+        private void OnEnable()
         {
             lastMousePos = Input.mousePosition;
             Cursor.lockState = CursorLockMode.Confined;

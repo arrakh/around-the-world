@@ -23,6 +23,7 @@ namespace AroundTheWorld.Globe
 
         private JsonDataProvider provider;
         
+        #if UNITY_EDITOR
         private void OnDrawGizmos()
         {
             if (provider == null) InitializeService();
@@ -76,6 +77,7 @@ namespace AroundTheWorld.Globe
                 Handles.Label(textPos, data.name, style);
             }
         }
+        #endif
 
         private Vector3 GetPosition(double lon, double lat, float distance)
         {

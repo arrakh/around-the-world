@@ -60,7 +60,7 @@ namespace AroundTheWorld.Quiz
             {
                 var level = InitializeLevel();
 
-                while (!hasLost && quizQueue.Count > 0)
+                while (quizQueue.Count > 0)
                 {
                     joaoUi.SetNeutral();
 
@@ -76,11 +76,14 @@ namespace AroundTheWorld.Quiz
 
                     var answer = entry.AnswerLocation.Trim().ToLowerInvariant();
                     
-                    hasLost = !currentAnswer.Contains(answer, StringComparison.InvariantCultureIgnoreCase);
+                    bool isAnswerCorrect = currentAnswer.Contains(answer, StringComparison.InvariantCultureIgnoreCase);
                     
-                    joaoUi.Display(!hasLost);
-                    
-                    if (!hasLost) yield return OnAnswerCorrect(entry.AnswerLocation);
+                    joaoUi.Display(isAnswerCorrect, entry.AnswerLocation);
+
+                    if (!hasLost && !isAnswerCorrect) hasLost = true;
+
+                    if (isAnswerCorrect) yield return OnAnswerCorrect(entry.AnswerLocation);
+                    else yield return new WaitForSeconds(1f);
                 }
 
                 levelIndex++;

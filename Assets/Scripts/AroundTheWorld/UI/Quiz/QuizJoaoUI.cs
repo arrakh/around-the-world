@@ -11,9 +11,9 @@ namespace AroundTheWorld.UI.Quiz
         [SerializeField] private TextMeshProUGUI resultText;
         [SerializeField] private Sprite winSprite, loseSprite;
 
-        public void Display(bool win)
+        public void Display(bool win, string answer)
         {
-            resultText.text = win ? "Nice one!" : "Noooo";
+            resultText.text = win ? "Nice one!" : $"No, it's {answer}";
             dialogueImage.gameObject.SetActive(true);
             dialogueImage.sprite = win ? winSprite : loseSprite;
             head.SetState(win ? JoaoState.HAPPY : JoaoState.SAD);

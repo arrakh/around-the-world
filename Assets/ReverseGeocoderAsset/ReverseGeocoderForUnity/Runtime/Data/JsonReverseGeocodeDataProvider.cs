@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Unity.Plastic.Newtonsoft.Json;
+using Newtonsoft.Json;
 using Wibci.CountryReverseGeocode.Models;
 
 namespace Wibci.CountryReverseGeocode.Data
