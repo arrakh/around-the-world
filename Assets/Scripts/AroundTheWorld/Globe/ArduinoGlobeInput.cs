@@ -22,6 +22,8 @@ namespace AroundTheWorld.Globe
 
         private bool shouldResetLongitude = true;
         
+        public bool ShouldResetLongitude => shouldResetLongitude;
+        
         private void Awake()
         {
             serialController = GetComponent<SerialController>();
@@ -32,7 +34,11 @@ namespace AroundTheWorld.Globe
         }
         private void Update()
         {
-            if (Input.GetKey(KeyCode.Space)) shouldResetLongitude = true;
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Debug.Log("WILL RESET LONGITUDE");
+                shouldResetLongitude = true;
+            }
 
             if (serialController != null)
             {
@@ -61,7 +67,7 @@ namespace AroundTheWorld.Globe
         private float CalculateLatitude(int potentiometerValue)
         {
             // Map potentiometer range (1023 to 92) to latitude range (-90 to 90)
-            float latitude = Mathf.Lerp(-41.2f, 90f, (float)(potentiometerValue - minPotentiometerValue) / (maxPotentiometerValue - minPotentiometerValue));
+            float latitude = Mathf.Lerp(-41.2f, 84f, (float)(potentiometerValue - minPotentiometerValue) / (maxPotentiometerValue - minPotentiometerValue));
             return latitude;
         }
 
@@ -69,6 +75,7 @@ namespace AroundTheWorld.Globe
         {
             if (shouldResetLongitude)
             {
+                Debug.Log("RESETTING LONGITUDE");
                 previousEncoderValue = encoderValue;
                 cumulativeRotation = 0f;
                 shouldResetLongitude = false;

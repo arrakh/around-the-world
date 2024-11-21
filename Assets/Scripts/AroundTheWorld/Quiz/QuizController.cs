@@ -33,6 +33,7 @@ namespace AroundTheWorld.Quiz
         private string currentAnswer = String.Empty;
 
         private Queue<QuizEntry> quizQueue = new();
+        
 
         public const string HAS_SEEN_TUTORIAL = "has-seen-tutorial";
 
@@ -76,11 +77,14 @@ namespace AroundTheWorld.Quiz
 
                     var answer = entry.AnswerLocation.Trim().ToLowerInvariant();
                     
-                    hasLost = !currentAnswer.Contains(answer, StringComparison.InvariantCultureIgnoreCase);
+                    //hasLost = !currentAnswer.Contains(answer, StringComparison.InvariantCultureIgnoreCase);
+                    hasLost = false;
                     
                     joaoUi.Display(!hasLost);
                     
                     if (!hasLost) yield return OnAnswerCorrect(entry.AnswerLocation);
+                    
+                    yield return CheckForGlobeReset();
                 }
 
                 levelIndex++;
@@ -106,6 +110,19 @@ namespace AroundTheWorld.Quiz
             yield return new WaitForSeconds(2f);
 
             SceneManager.LoadScene("MainMenu");
+        }
+
+        private IEnumerator CheckForGlobeReset()
+        {
+            if (!globeController.TryGetActiveInput(out var activeInput)) yield break;
+
+            if (activeInput is not ArduinoGlobeInput globeInput) yield break;
+            
+            joaoScreen.gameObject.SetActive(true);
+            yield return joaoScreen.Display($"Point your globe cursor to the Null Point and press Space!", 0f, JoaoState.DEFAULT);
+
+            yield return new WaitUntil(() => globeInput.ShouldResetLongitude);
+            joaoScreen.gameObject.SetActive(false);
         }
 
         private IEnumerator TutorialSequence()

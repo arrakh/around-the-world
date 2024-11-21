@@ -23,18 +23,12 @@ MonoBehaviour:
   - answerLocation: Mexico
     questionText: Where is this food from?
     questionImage: {fileID: -590559218, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
-  - answerLocation: Italy
-    questionText: Where is this food from?
-    questionImage: {fileID: 1246511168, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Turkey
     questionText: Where is this food from?
     questionImage: {fileID: -1704139602, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: Germany
     questionText: Where is this food from?
     questionImage: {fileID: -1493566546, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
-  - answerLocation: Portugal
-    questionText: Where is this food from?
-    questionImage: {fileID: -662445866, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}
   - answerLocation: United Kingdom
     questionText: Where is this food from?
     questionImage: {fileID: -1748984454, guid: 3c1dede35fc2b9f4e9e1ba1e1aab4d93, type: 3}

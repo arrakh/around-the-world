@@ -8,6 +8,7 @@ namespace AroundTheWorld.Globe
         [SerializeField] private float currentLatitude, currentLongitude;
         
         public bool IsEnabled => enabled;
+
         public void GetInput(out float latitude, out float longitude)
         {
             latitude = currentLatitude;
